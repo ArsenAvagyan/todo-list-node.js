@@ -1,0 +1,71 @@
+body{
+    background: rgba(13, 26, 33, 0);
+    font-family: tahoma;
+    color: rgba(92, 93, 152, 0.73);
+}
+
+#todo-table{
+    position: relative;
+    width: 95%;
+    background: rgba(23, 15, 29, 0.02);
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    background: rgba(110, 96, 88, 0.64);
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: rgba(22, 9, 7, 0.97);
+}
+
+button{
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #178420;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: black;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background: rgba(195, 204, 242, 0.08);
+}
+
+h1{
+
+    margin: 50px 50px 30px;
+
+}
